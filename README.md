@@ -95,7 +95,7 @@ cerca per la resta de dades facilitades a la petició abans de donar la resposta
 <img align="center" src="img/3.1.2.png" />
 </p>
 
-### 3.1.2.1 Consulta per dades de filiació
+3.1.2.1 Consulta per dades de filiació
 
 | _Element_ | _Descripció_ |
 | --- | --- |
