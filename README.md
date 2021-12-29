@@ -60,8 +60,6 @@ Així, cal informar els següents camps de l’element Funcionario del bloc de d
 ```
 ### 3.1 Consulta d’inexistència d’antecedents penals <a name="3.1"></a>
 
-### (ANTECEDENTS_PENALS)
-
 ```
 El servei NO indica si un ciutadà té antecedents penals, indica si el ciutadà NO té antecedents penals. Si pel contrari, existeix una possibilitat que el ciutadà tingui antecedents per existir una possible coincidència al Registre d’Antecedents Penals, en aquest cas el ciutadà haurà de sol·licitar el certificat en l’oficina del Ministeri de Justícia corresponent.
 ```
@@ -73,7 +71,7 @@ cerca per la resta de dades facilitades a la petició abans de donar la resposta
 ```
 #### 3.1.1 Petició – dades genèriques <a name="3.1.1"></a>
 
-### 3.1.1.1 Consulta per dades de filiació
+3.1.1.1 Consulta per dades de filiació
 
 | _Element_ | _Descripció_ |
 | --- | --- |
@@ -83,12 +81,12 @@ cerca per la resta de dades facilitades a la petició abans de donar la resposta
 //DatosGenericos/Titular/Apellido1 | Primer cognom del titular de la sol·licitud.
 //DatosGenericos/Titular/Apellido2 | Segon cognom del titular de la sol·licitud. Obligatori si la nacionalitat és espanyola.
 
-### 3.1.1.2 Consulta per document d’identitat
+3.1.1.2 Consulta per document d’identitat
 
 | _Element_ | _Descripció_ |
 | --- | --- |
 //DatosGenericos/Titular/TipoDocumentacion | Tipus de documentació (NIF, NIE).
-//DatosGenericos/Titular/Documentacion | Documentació.<ul><li>NIF / DNI (8 dígits + caràcter de control).</li><li>NIE ([X,Y,Z] + 7 dígits + caràcter decontrol).</li></ul>
+//DatosGenericos/Titular/Documentacion | Documentació:<ul><li>NIF / DNI (8 dígits + caràcter de control).</li><li>NIE ([X,Y,Z] + 7 dígits + caràcter decontrol).</li></ul>
 //DatosGenericos/Titular/Apellido1 | Primer cognom del titular de la sol·licitud. Si no s’informa, cal indicar l’any de naixement a les dades específiques.
 
 #### 3.1.2 Petició – dades específiques <a name="3.1.2"></a>
@@ -138,8 +136,6 @@ s/peticioInexistenciaAntecedentsPenals/sexe | Sexe del ciutadà:<ul><li>H (home)
 
 ### 3.2 Consulta d’inexistència d’antecedents per delictes sexuals <a name="3.2"></a>
 
-### (DELICTES_SEXUALS)
-
 ```
 El servei NO indica si un ciutadà té antecedents per delictes sexuals, indica si el ciutadà NO té
 antecedents per delictes sexuals. Si pel contrari, existeix una possibilitat que el ciutadà tingui
@@ -179,9 +175,8 @@ d’antecedents penals al Registre Central de Penats com en la d’inexistència
 delictes sexuals al Registre Central de Delinqüents Sexuals– es pot obtenir accedint a la URL
 indicada en la resposta a la consulta (seu electrònica del Ministeri) i allà, informant:
 
-```
 <ul><li>La documentació de l’individu consultat.</li><li>El CSV obtingut a la resposta.</li></ul>
-```
+
 <p align="center">
 <img align="center" src="img/3.3.png" />
 </p>
