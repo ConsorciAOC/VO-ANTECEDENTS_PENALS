@@ -3,18 +3,20 @@ Documentació d'integració del servei antecedents penals del Consorci AOC.
 
 ## Índex
 
-1. [Introducció](#1)
-2. [Transmissions de dades disponibles](#2)
-3. [Missatgeria del servei](#3)
-   1. [Consulta d’inexistència d’antecedents penals (ANTECEDENTS_PENALS)](#3.1)
-      1. [Petició – dades genèriques](3.1.1)
-      2. [Petició – dades específiques](#3.1.2)
-      3. [Resposta – dades específiques](#3.1.3)
-   2. [Consulta d’inexistència d’antecedents per delictes sexuals (DELICTES_SEXUALS)](#3.2)
-      1. [Petició – dades genèriques](#3.2.1)
-      2. [Petició – dades específiques](#3.2.2)
-      3. [Resposta – dades específiques](#3.2.3)
-   3. [Obtenció del certificat emès pel Ministeri de Justícia](#4)
+- [VO-ANTECEDENTS_PENALS](#vo-antecedents_penals)
+  - [Índex](#índex)
+  - [1 Introducció <a name="1"></a>](#1-introducció-)
+  - [2 Transmissions de dades disponibles <a name="2"></a>](#2-transmissions-de-dades-disponibles-)
+  - [3 Missatgeria dels serveis <a name="3"></a>](#3-missatgeria-dels-serveis-)
+    - [3.1 Consulta d’inexistència d’antecedents penals <a name="3.1"></a>](#31-consulta-dinexistència-dantecedents-penals-)
+      - [3.1.1 Petició – dades genèriques <a name="3.1.1"></a>](#311-petició--dades-genèriques-)
+      - [3.1.2 Petició – dades específiques <a name="3.1.2"></a>](#312-petició--dades-específiques-)
+      - [3.1.3 Resposta – dades específiques <a name="3.1.3"></a>](#313-resposta--dades-específiques-)
+    - [3.2 Consulta d’inexistència d’antecedents per delictes sexuals <a name="3.2"></a>](#32-consulta-dinexistència-dantecedents-per-delictes-sexuals-)
+      - [3.2.1 Petició – dades genèriques <a name="3.2.1"></a>](#321-petició--dades-genèriques-)
+      - [3.2.2 Petició – dades específiques <a name="3.2.2"></a>](#322-petició--dades-específiques-)
+      - [3.2.3 Resposta – dades específiques <a name="3.2.3"></a>](#323-resposta--dades-específiques-)
+    - [3.3 Obtenció del certificat emès pel Ministeri de Justícia <a name="3.3"></a>](#33-obtenció-del-certificat-emès-pel-ministeri-de-justícia-)
 
 ## 1 Introducció <a name="1"></a>
 
@@ -112,7 +114,7 @@ s/peticioInexistenciaAntecedentsPenals/sexe | Sexe del ciutadà:<ul><li>H (home)
 /peticioInexistenciaAntecedentsPenals/correu | Correu electrònic del titular consultat.
 /peticioInexistenciaAntecedentsPenals/telefon | Telèfon del titular consultat. El format serà el següent: <ul><li>+00111111111</li><li>111111111</li></ul>
 
-### 3.1.2.2 Consulta per document d’identitat
+3.1.2.2 Consulta per document d’identitat
 
 | _Element_ | _Descripció_ |
 | --- | --- |
