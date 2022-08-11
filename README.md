@@ -17,6 +17,7 @@ Documentació d'integració del servei antecedents penals del Consorci AOC.
       - [3.2.2 Petició – dades específiques <a name="3.2.2"></a>](#322-petició--dades-específiques-)
       - [3.2.3 Resposta – dades específiques <a name="3.2.3"></a>](#323-resposta--dades-específiques-)
     - [3.3 Obtenció del certificat emès pel Ministeri de Justícia <a name="3.3"></a>](#33-obtenció-del-certificat-emès-pel-ministeri-de-justícia-)
+  - [4. Joc de proves](#4)
 
 ## 1 Introducció <a name="1"></a>
 
@@ -26,10 +27,10 @@ al Registre Central de Delinqüents Sexuals. Ambdós registres pertanyen al Mini
 
 Per poder realitzar la integració cal conèixer prèviament la següent documentació:
 
-```
- Document d’Especificació de missatgeria pel consum de productes de la plataforma PCI del
-Consorci AOC.
-```
+- [Document de Missatgeria Genèrica de la PCI del Consorci AOC.][PCI]
+
+[PCI]:https://github.com/ConsorciAOC/PCI
+
 
 ## 2 Transmissions de dades disponibles <a name="2"></a>
 
@@ -182,3 +183,15 @@ indicada en la resposta a la consulta (seu electrònica del Ministeri) i allà, 
 <p align="center">
 <img align="center" src="img/3.3.png" />
 </p>
+
+
+# 4 Joc de proves
+
+
+
+L&#39;emissor final publica els següent [joc de proves a l&#39;entorn de pre-producció][proves] 
+
+[proves]: https://administracionelectronica.gob.es/ctt/svd/descargas#.YvOZNXbP2Ul
+![image](https://user-images.githubusercontent.com/32306731/137281698-9dfc2044-94f7-487f-a7d6-9a4e0707feb3.png) En cas de tindre problemes per accedir als jocs de proves, si us plau, obre un tiquet a través del [formulari][form]
+
+[form]:https://www.aoc.cat/portal-suport/peticio-integradors/idservei/integracio/
