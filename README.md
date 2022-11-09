@@ -185,7 +185,7 @@ indicada en la resposta a la consulta (seu electrònica del Ministeri) i allà, 
 </p>
 
 
-# 4 Joc de proves
+# 4 Joc de proves <a name="4"></a>
 
 
 
@@ -195,6 +195,5 @@ L&#39;emissor final publica els següent [joc de proves a l&#39;entorn de pre-pr
 ![image](https://user-images.githubusercontent.com/32306731/137281698-9dfc2044-94f7-487f-a7d6-9a4e0707feb3.png) En cas de tindre problemes per accedir als jocs de proves, si us plau, obre un tiquet a través del [formulari][form]
 
 [form]:https://suport.aoc.cat/hc/ca/requests/new
-
 
 
